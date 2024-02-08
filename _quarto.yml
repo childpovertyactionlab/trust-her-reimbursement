@@ -49,19 +49,15 @@ website:
             - icon: house
               text: "Home"
               href: index.html
-
             - icon: journal-text
               text: "Typeform Surveys"
               href: surveys.html
-
             - icon: magnifying-glass
               text: "Clinic Response Review"
               href: clinics.html
-              
             - icon: chart-line
               text: "Reimbursment Dashboard"
               href: "https://cpal.shinyapps.io/trust-her-reimbursement/"
-
             - icon: github
               text: "Github"
               href: "https://github.com/childpovertyactionlab/trust-her-clinic-reimbursement"

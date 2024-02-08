@@ -1,9 +1,27 @@
 ---
-title: "Note-Taking Template"
+title: "Clinic Response Review"
 toc: FALSE
+tbl-cap-location: bottom
 ---
 
-<object data="assets/note_taking_template.pdf" type="application/pdf" width="100%" height="800px">
- <p>No .pdf reader available. Click <a href="assets/note_taking_template.pdf">here</a> to
-  download the PDF file.</p>
-</object>
+Access to the links below is restricted to designated staff members authorized by Trust Her for each respective clinic system. These links provide access to the Typeform survey responses submitted by the clinics. Survey responses are available for review exclusively during the first week of each clinic's specified update cadence. Please note that all responses will be securely erased following the final review date to ensure data privacy and compliance.
+
+
+| Cadence | Deadline to Submit Forms | Date to Begin Review | Deadline to Review Surveys |
+|---------|--------------------------|----------------------|-----|
+| Monthly | 5th of the Month | 6th of the Month | 10th of the Month |
+| Quarterly* | 15th of the Quarter | 16th of the Quarter | 30th of the Quarter |
+
+: * Review for the four quarters of the year are in January, April, July, and October {tbl-colwidths="[13,29,29,29]"}
+
+| Clinic System                                  | Update Cadence |
+|------------------------------------------------|----------------|
+| [Clinica Hispana General](https://docs.google.com/spreadsheets/d/1WEEgB6to1XaWlaMIMVogsFBwH6-F9YwU79L0iYzihKs/) | Monthly      |
+| [Comadre Telemedicine](https://docs.google.com/spreadsheets/d/1fu1DxcV6Y6-5WJPHLywQrYmHb1JBEvIxy0RApwl-AHU/) | Quarterly      |
+| [Elite Nurse Practitioners](https://docs.google.com/spreadsheets/d/18LPhTrClcSRWG1JLjmtoCdAjMo9dfeGCrvjqHW-WZF4/) | Quarterly      |
+| [Everts Psychiatry and Family Medicine](https://docs.google.com/spreadsheets/d/10OBub7-9xlyFTEvEdY6gcAHR2m6_vPM5DDNp-_QSHl8/) | Quarterly      |
+| [Foremost Family Health](https://docs.google.com/spreadsheets/d/1DyrGqFgLOxKTrQzrlTEmJtneddix3R_-J0I5c-HHSLM) | Quarterly      |
+| [Health Now Family Practice](https://docs.google.com/spreadsheets/d/16Ty0A4PfF0D6vyFBxx-UOLXmQ5lcXyMnfVAwwh7af5U/) | Quarterly      |
+| [HHM Health](https://docs.google.com/spreadsheets/d/1UXAmvG2v2YYICg0UY965fYLidXT61s-s8pG52lE_zus) | Quarterly      |
+| [Holy Cross OBGYN](https://docs.google.com/spreadsheets/d/1mYQX-0kzNoeUve6RKHJbvIZey1Hrw-jLwBWIAocVmxE/) | Quarterly      |
+| [Tenison Womens Health](https://docs.google.com/spreadsheets/d/1lJcwRiP7xYX9EranJYWLoa_uvf6bEm0YNwJjsNK0ifs) | Monthly      |

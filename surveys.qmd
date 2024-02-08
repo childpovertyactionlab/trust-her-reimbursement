@@ -1,21 +1,19 @@
 ---
-title: "Training"
+title: "Typeform Surveys"
 toc: FALSE
+tbl-cap-location: bottom
 ---
 
-<style>
-  .iframe-container {
-    width: 100%;
-    margin: 0 auto;
-  }
+Below are the links to the Trust Her Contraceptive Services Report Forms, which are mandatory for all clinics in partnership with Trust Her to complete for every patient receiving contraceptive services. The table provided outlines the submission deadlines for these reports, segmented by the respective time periods.
 
-  iframe {
-    width: 100%;
-    height: 550px;
-    border: none;
-  }
-</style>
+| Cadence | Deadline to Submit Forms | Date to Begin Review | Deadline to Review Surveys |
+|---------|--------------------------|----------------------|-----|
+| Monthly | 5th of the Month | 6th of the Month | 10th of the Month |
+| Quarterly* | 15th of the Quarter | 16th of the Quarter | 30th of the Quarter |
 
-<div class="iframe-container">
-  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSOYgDhJ0N5liWkHAv-8Xxz2EfRCfodSIi4OYL1FZXqD7aykH382U6XyQEXgZED4MiWqUppSgULRt5w/embed?start=false&loop=false&delayms=3000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-</div>
+: * Review for the four quarters of the year are in January, April, July, and October {tbl-colwidths="[13,29,29,29]"}
+
+| Form Link                                  | Applicable Clinics |
+|------------------------------------------------|----------------|
+| [Contraceptive Services Report Form (Original)](https://admin.typeform.com/form/FG7qtrgQ/create?block=5d936ce2f899c3b1) | Tenison, HHM Health, and Foremost Family Health      |
+| [Contraceptive Services Report Form (Updated)](https://admin.typeform.com/form/ET1pRwlu/create?block=5d936ce2f899c3b1) | All Other Clinic Systems |
