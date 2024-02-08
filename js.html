@@ -1,0 +1,100 @@
+
+<!--<script>
+  function toggleInfoDescription(info) {
+    // Toggle the classes to control the visibility of the description and append "..."
+    info.classList.toggle('show-description');
+    info.classList.toggle('collapsed');
+  }
+
+  function addInfoToggle() {
+    var infos = document.querySelectorAll('.info');
+    infos.forEach((info) => {
+      // Initially set as collapsed
+      info.classList.add('collapsed');
+
+      // Attach click event to info element
+      info.style.cursor = 'pointer';
+      info.onclick = function() {
+        toggleInfoDescription(this);
+      };
+    });
+  }
+  
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    addInfoToggle();
+  });
+</script>-->
+
+<script>
+  function addHoverEffect() {
+    const links = document.querySelectorAll('.grid-link');
+    const infos = document.querySelectorAll('.info');
+
+    links.forEach(link => {
+      link.addEventListener('mouseover', () => handleHover(link, true));
+      link.addEventListener('mouseout', () => handleHover(link, false));
+    });
+
+    infos.forEach(info => {
+      info.addEventListener('mouseover', () => handleHover(info, true));
+      info.addEventListener('mouseout', () => handleHover(info, false));
+    });
+
+    function handleHover(element, isHover) {
+      const linkId = element.getAttribute('id');
+      const associatedLink = document.querySelector(`.grid-link[id="${linkId}"]`);
+      const associatedInfo = document.querySelector(`.info[id="${linkId}"]`);
+
+      if (isHover) {
+        associatedLink && associatedLink.classList.add('hovered');
+        associatedInfo && associatedInfo.classList.add('hovered');
+      } else {
+        associatedLink && associatedLink.classList.remove('hovered');
+        associatedInfo && associatedInfo.classList.remove('hovered');
+      }
+    }
+  }
+
+  window.addEventListener('DOMContentLoaded', (event) => {
+    addHoverEffect();
+  });
+</script>
+
+<!--<script>
+  
+  function toggleInfoDescription(infoId) {
+    var description = document.getElementById(infoId);
+    if (description.style.display === "none") {
+      description.style.display = "block";
+    } else {
+      description.style.display = "none";
+    }
+  }
+
+  function addInfoToggle() {
+    var infos = document.querySelectorAll('.info');
+    infos.forEach((info, index) => {
+      const infoId = "info-description-" + index;
+      const descriptionText = info.getAttribute('data-description');
+
+      // Create the new description element
+      const descriptionElement = document.createElement("p");
+      descriptionElement.id = infoId;
+      descriptionElement.style.display = "none";
+      descriptionElement.textContent = descriptionText;
+
+      // Attach click event to info element
+      info.style.cursor = 'pointer';
+      info.onclick = function() {
+        toggleInfoDescription(infoId);
+      };
+
+      // Insert the description element after the info element
+      info.insertAdjacentElement("afterend", descriptionElement);
+    });
+  }
+  
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    addInfoToggle();
+  });
+</script>-->

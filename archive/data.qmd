@@ -1,0 +1,21 @@
+---
+title: "Data Deep Dive"
+toc: FALSE
+---
+
+<style>
+  .iframe-container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  iframe {
+    width: 100%;
+    height: 550px;
+    border: none;
+  }
+</style>
+
+<div class="iframe-container">
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQWOgKwjzr1Y3ApphqTM9A5gVa8FSTIO_U66_SmUUyGdUmLn0zfrgU8E22HfVZlIQfeiS6EIy1MyjYb/embed?start=false&loop=false&delayms=3000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</div>

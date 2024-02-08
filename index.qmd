@@ -1,0 +1,55 @@
+---
+title: "Trust Her Clinic Home"
+toc: FALSE
+include-in-header: js.html
+---
+
+```{=html}
+<style>
+
+  p {
+      font-size: 18px !important;
+  }
+  
+</style>
+
+<div class="grid-container">
+  <a class="grid-link" id="surveys" href="surveys.html" title="View current typeform surveys available for clinics.">
+    <div>
+      <p><i class="bi bi-journal-text" style='font-size:80px;'></i></p>
+      <p><span>Typeform Surveys</span></p>
+    </div>
+  </a>
+  <a class="grid-link" id="clinics" href="clinics.html" title="Links to all clinic google sheets available.">
+    <div>
+      <p><i class="bi bi-search" style='font-size:80px;'></i></p>
+      <p><span>Google Sheet Survey Review</span></p>
+    </div>
+  </a>
+  <a class="grid-link" id="dashboard" href="https://cpal.shinyapps.io/trust-her-reimbursement/" target="_blank" title="Clinic Reimbursement shiny dashboard.">
+    <div>
+      <p><i class="bi bi-graph-up" style='font-size:80px;'></i></p>
+      <p><span>Clinic Reimbursement Dashboard <i class="bi bi-link" ></i></span></p>
+    </div>
+  </a>
+</div>
+```
+
+------------------------------------------------------------------------
+
+# What is this website for?
+
+This resource hub has all materials related to Trust Her clinic reimbursement of services.
+
+```{=html}
+
+<div class="hover-info">
+    <div class="info" id="surveys" data-description="The presentation from the training is linked here. This includes the project background, eviction data deep dive, and data collection."><i class="bi bi-journal-text"></i> <b>Typeform Surveys</b></div>
+    <p></p>
+    <div class="info" id="clinics" data-description="This website is where observers will view and sign up for eviction dockets, enter observation data points, and print docket case listings."><i class="bi bi-search"></i> <b>Google Sheet Survey Review</b></div>
+    <p></p>
+    <div class="info" id="dashboard" data-description="This is the document that observers will use during observations to collect data points. Observers can download and print this document."><i class="bi bi bi-graph-up"></i> <b>Clinic Reimbursement Dashboard</b></div>
+</div>
+
+```
+

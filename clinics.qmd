@@ -1,0 +1,9 @@
+---
+title: "Note-Taking Template"
+toc: FALSE
+---
+
+<object data="assets/note_taking_template.pdf" type="application/pdf" width="100%" height="800px">
+ <p>No .pdf reader available. Click <a href="assets/note_taking_template.pdf">here</a> to
+  download the PDF file.</p>
+</object>

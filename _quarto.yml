@@ -1,0 +1,70 @@
+project:
+  type: website
+  output-dir: "docs"
+format:
+  html:
+    theme: www/web_report.scss
+    toc-title: Contents
+    toc: true
+    toc-depth: 3
+    toc-location: right
+    anchor-sections: false
+    code-summary: "Reveal Code"
+    code-copy: hover
+    code-fold: true
+    smooth-scroll: true
+    grid:
+      sidebar-width: 250px
+      body-width: 900px
+      margin-width: 300px
+    code-block-bg: true
+    code-block-border-left: "#008097"
+    fig-width: 9
+    fig-height: 7
+    fig-dpi: 300
+    warning: FALSE
+    error: TRUE
+    echo: FALSE
+    message: FALSE
+website:
+  title: "Trust Her Clinic Reimbursement"
+  search:
+    location: navbar
+    type: textbox
+  favicon: www/images/CPAL_favicon.ico
+  # description: "Description of this web report."
+#  site-url:
+#  repo-url:
+#  google-analytics:
+#  cookie consent: implied
+  navbar:
+      pinned: TRUE
+      search: TRUE
+      logo: www/images/CPAL_Logo_White.png
+      logo-href: index.html
+      collapse: false
+      right:
+        - text: "<b>Menu<b>"
+          menu:
+            - icon: house
+              text: "Home"
+              href: index.html
+
+            - icon: journal-text
+              text: "Typeform Surveys"
+              href: surveys.html
+
+            - icon: magnifying-glass
+              text: "Clinic Response Review"
+              href: clinics.html
+              
+            - icon: chart-line
+              text: "Reimbursment Dashboard"
+              href: "https://cpal.shinyapps.io/trust-her-reimbursement/"
+
+            - icon: github
+              text: "Github"
+              href: "https://github.com/childpovertyactionlab/trust-her-clinic-reimbursement"
+  page-footer:
+    center: Copyright 2023 <b>[The Child Poverty Action Lab](https://childpovertyactionlab.org/).</b>
+    background: "#042D33"
